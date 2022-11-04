@@ -9,11 +9,13 @@ const radioHide = document.getElementById("radio-hide");
 const h3 = document.querySelector("h3");
 const h2 = document.querySelector("h2");
 const maxRounds = document.getElementById("max-rounds");
+const border = document.querySelector("section:first-of-type");
 let count = document.getElementById("count");
 let scoreUser = document.getElementById("score-user");
 let scoreAi = document.getElementById("score-ai");
 
 radio5.addEventListener(`click`, () => {
+    border.style.animationName = "none";
     radioHide.hidden = true;
     h2.style.color = "rgb(237, 237, 237)";
     h3.hidden = false;
@@ -21,6 +23,7 @@ radio5.addEventListener(`click`, () => {
     btnDisableCondition();
 });
 radio10.addEventListener(`click`, () => {
+    border.style.animationName = "none";
     radioHide.hidden = true;
     h2.style.color = "rgb(237, 237, 237)";
     h3.hidden = false;
@@ -28,6 +31,7 @@ radio10.addEventListener(`click`, () => {
     btnDisableCondition();
 });
 radio15.addEventListener(`click`, () => {
+    border.style.animationName = "none";
     radioHide.hidden = true;
     h2.style.color = "rgb(237, 237, 237)";
     h3.hidden = false;
@@ -35,6 +39,7 @@ radio15.addEventListener(`click`, () => {
     btnDisableCondition();
 });
 radio20.addEventListener(`click`, () => {
+    border.style.animationName = "none";
     radioHide.hidden = true;
     h2.style.color = "rgb(237, 237, 237)";
     h3.hidden = false;
